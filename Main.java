@@ -1,7 +1,9 @@
+/**
+* @author Brigada 4
+*/
 import hilos.HiloT;
 import hilos.HiloR;
-
-class Main {
+public class Main {
   public static void main(String[] args) {
     HiloT miHilo1 = new HiloT("Primer Hilo");
     miHilo1.start();
